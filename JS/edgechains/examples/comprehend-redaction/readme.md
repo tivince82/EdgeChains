@@ -2,6 +2,8 @@
 
 This example demonstrates how to integrate **Amazon Comprehend** into EdgeChains to detect and redact sensitive Personally Identifiable Information (PII) before prompts reach LLM endpoints, utilizing both Promise-based and cold RxJS **Observable** flows.
 
+![Demo Walkthrough](./demo.gif)
+
 ## Features Demonstrated
 
 1. **Deterministic PII Redaction (`AwsComprehendRedactor`)**:
